@@ -26,7 +26,6 @@ The project consists of the following entities:
   - id (Long, Primary Key)
   - firstName (String)
   - lastName (String)
-  - role (String)
   - devilFruit (String)
   - appearances (Many-to-Many Relation to Episode)
   - haki (ElementCollection of Haki enum)
