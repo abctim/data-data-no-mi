@@ -9,35 +9,9 @@ The Data Data no Mi project is a One Piece Episode Management System that demons
 The project consists of the following entities:
 
 1. Episode
-  - id (Long, Primary Key)
-  - title (String)
-  - number (Integer)
-  - airDate (Date)
-  - synopsis (String)
-  - arc (Many-to-One Relation to Arc)
-
 2. Arc
-  - id (Long, Primary Key)
-  - name (String)
-  - description (String)
-  - episodes (One-to-Many Relation to Episode)
-
 3. Character
-  - id (Long, Primary Key)
-  - firstName (String)
-  - lastName (String)
-  - devilFruit (String)
-  - appearances (Many-to-Many Relation to Episode)
-  - haki (ElementCollection of Haki enum)
-
 4. User
-  - id (Long, Primary Key)
-  - username (String)
-  - email (String)
-  - favoriteCharacters (Many-to-Many Relation to Character)
-  - watchedEpisodes (Many-to-Many Relation to Episode)
-
-The `Character` entity includes an `ElementCollection` of the `Haki` enum, which represents the types of Haki (a special power in the One Piece universe) that a character possesses. The `Haki` enum can have values such as `OBSERVATION`, `ARMAMENT`, and `CONQUEROR`.
 
 ## Technologies Used
 
