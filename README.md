@@ -6,13 +6,6 @@ Welcome to the Data Data no Mi project! This project is a fun way to explore and
 
 The Data Data no Mi project is a One Piece Episode Management System that demonstrates the use of various database concepts and technologies. The project utilizes Hibernate as the Object-Relational Mapping (ORM) tool to interact with a PostgreSQL database. It showcases the implementation of entity relationships, primary and foreign keys, optimized fetching strategies, and the usage of ElementCollection with an enum.
 
-The project consists of the following entities:
-
-1. Episode
-2. Arc
-3. Character
-4. User
-
 ## Technologies Used
 
 - Java
